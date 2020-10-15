@@ -13,7 +13,7 @@ class App extends Component {
     }
   }
 
-  handleChange1 = e => {this.setState({searchField: e.target.value})}
+  handleChange = e => {this.setState({searchField: e.target.value})}
   //A component is mounted when react renders that component. When our component gets mounted, 
   //the code inside componentDidMount is called. The following code adds the data to monsters array
   componentDidMount() {
